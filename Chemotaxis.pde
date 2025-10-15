@@ -1,15 +1,15 @@
-Car[] bob = new Car[201];
+Car[] bob = new Car[401];
 
 void setup(){
   size(700,700);
-  for (int i = 0; i<= 200; i++) {
+  for (int i = 0; i<= 400; i++) {
     bob[i] = new Car();
   }
 }
 
 void draw(){
   background(255);
-  for (int i = 0; i<= 200; i++) {
+  for (int i = 0; i<= 400; i++) {
     bob[i].move();
     bob[i].show();
   }
