@@ -1,4 +1,4 @@
-final int NUM_ELLIPSES = 20;
+final int NUM_ELLIPSES = 50;
 WigglyEllipse[] ellipses = new WigglyEllipse[NUM_ELLIPSES];
 
 void setup() {
